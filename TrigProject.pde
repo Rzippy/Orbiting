@@ -25,14 +25,14 @@ void draw() {
   //the equation for earth's orbit
   earthX = solarX+200*cos(radians(angle));
   earthY = solarY+200*sin(radians(angle));
-  angle=angle+1.0;
+  angle=angle-1.0;
   //Luna
   fill(200);
   circle(lunaX, lunaY, 10);
   //the equation for luna's orbit
   lunaX = earthX+50*cos(radians(Lunarangle));
   lunaY = earthY+50*sin(radians(Lunarangle));
-  Lunarangle=Lunarangle+2.0;
+  Lunarangle=Lunarangle-2.0;
 }
 //circle method
 void circle(float X, float Y, float radius) {
