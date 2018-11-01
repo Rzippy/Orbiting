@@ -18,7 +18,7 @@ void draw() {
   background(0);
   //Solar
   fill(255, 255, 0);
-  circle(solarX,solarY, 50);
+  circle(solarX, solarY, 50);
   //Earth
   fill(0, 150, 255);
   circle(earthX, earthY, 20);
